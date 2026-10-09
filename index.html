@@ -32,12 +32,12 @@
 <body>
     <div id="click-layer" onclick="startGriddy()"></div>
     <!-- Updated to match your exact file name -->
-    <img id="freddy-gif" src="bonnie.gif" alt="">
+    <img id="bonnie-gif" src="bonnie.gif" alt="">
     <audio id="fnaf-audio" src="har-har-har.mp3" loop></audio>
     <script>
         function startGriddy() {
             document.getElementById('click-layer').style.display = 'none';
-            document.getElementById('freddy-gif').style.display = 'block';
+            document.getElementById('bonnie-gif').style.display = 'block';
             const audio = document.getElementById('fnaf-audio');
             audio.play().catch(error => { console.log("Audio blocked:", error); });
         }
